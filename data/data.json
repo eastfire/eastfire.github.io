@@ -1,0 +1,28 @@
+[
+    {
+        "id": "galaxy15m",
+        "name": "银河一刻",
+        "description": "模拟人类殖民银河系的小游戏，每局最多需要15分钟。\n给我1000秒，我给你整个银河。\ncocos2d-js实现，适用于所有浏览器",
+        "imageUrl": "res/img/galaxy15m-3.png",
+        "githubUrl": "http://github.com/eastfire/galaxy15m",
+        "appUrl" : "http://eastfire.github.io/galaxy15m",
+        "backupUrl" : "https://galaxy15m.firebaseapp.com/"
+    },
+    {
+        "id": "dungeon-deck",
+        "name": "DungeonDeck",
+        "description": "塔防与桌游DBG机制(牌库构筑)结合的游戏。\ncocos2d-js实现，适用于所有浏览器",
+        "imageUrl": "res/img/dungeon-deck-1.png",
+        "githubUrl": "http://github.com/eastfire/dungeon-deck",
+        "appUrl" : "http://eastfire.github.io/dungeon-deck",
+        "backupUrl" : "https://dungeon-deck.firebaseapp.com/"
+    },
+    {
+        "id": "dungeon2048",
+        "name": "Dungeon2048",
+        "description": "2048与DND背景相结合的rogue like游戏。\n适用于所有浏览器",
+        "imageUrl": "res/img/dungeon2048-1.png",
+        "githubUrl": "http://github.com/eastfire/dungeon2048",
+        "appUrl" : "http://eastfire.github.io/dungeon2048"
+    }
+]
