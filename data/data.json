@@ -64,7 +64,7 @@
     {
         "id": "ninja",
         "name": "ninja",
-        "description": "忍者荡绳索的游戏，左键放绳索，再点左键收绳索。SDL实现",
+        "description": "忍者荡绳索的游戏，左键放绳索，再点左键收绳索。SDL实现。注：超难",
         "support":"仅适用于windows，下载压缩包解压即可",
         "imageUrl": "res/img/ninja-1.jpg",
         "appUrl" : "./legacy/ninja.zip",
