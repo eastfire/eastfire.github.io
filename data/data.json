@@ -2,27 +2,81 @@
     {
         "id": "galaxy15m",
         "name": "银河一刻",
-        "description": "模拟人类殖民银河系的小游戏，每局最多需要15分钟。\n给我1000秒，我给你整个银河。\ncocos2d-js实现，适用于所有浏览器",
-        "imageUrl": "res/img/galaxy15m-3.png",
+        "description": "模拟人类殖民银河系的小游戏，每局最多需要15分钟。给我1000秒，我给你整个银河。cocos2d-js实现",
+        "support": "适用于所有浏览器",
+        "imageUrl": "res/img/galaxy15m-3.jpg",
         "githubUrl": "http://github.com/eastfire/galaxy15m",
         "appUrl" : "http://eastfire.github.io/galaxy15m",
-        "backupUrl" : "https://galaxy15m.firebaseapp.com/"
+        "backupUrl" : "https://galaxy15m.firebaseapp.com/",
+        "year": 2015
     },
     {
         "id": "dungeon-deck",
         "name": "DungeonDeck",
-        "description": "塔防与桌游DBG机制(牌库构筑)结合的游戏。\ncocos2d-js实现，适用于所有浏览器",
-        "imageUrl": "res/img/dungeon-deck-1.png",
+        "description": "塔防与桌游DBG机制(牌库构筑)结合的游戏。cocos2d-js实现",
+        "support": "适用于所有浏览器",
+        "imageUrl": "res/img/dungeon-deck-1.jpg",
         "githubUrl": "http://github.com/eastfire/dungeon-deck",
         "appUrl" : "http://eastfire.github.io/dungeon-deck",
-        "backupUrl" : "https://dungeon-deck.firebaseapp.com/"
+        "backupUrl" : "https://dungeon-deck.firebaseapp.com/",
+        "year": 2015
     },
     {
         "id": "dungeon2048",
         "name": "Dungeon2048",
-        "description": "2048与DND背景相结合的rogue like游戏。\n适用于所有浏览器",
-        "imageUrl": "res/img/dungeon2048-1.png",
+        "description": "2048与DND背景相结合的rogue like游戏。",
+        "support": "适用于所有浏览器",
+        "imageUrl": "res/img/dungeon2048-1.jpg",
         "githubUrl": "http://github.com/eastfire/dungeon2048",
-        "appUrl" : "http://eastfire.github.io/dungeon2048"
+        "appUrl" : "http://eastfire.github.io/dungeon2048",
+        "year": 2014
+    },
+    {
+        "id": "spyfall",
+        "name": "spyfall",
+        "description": "社交推理桌游，通过传递一部手机来传递隐藏信息。规则见BGG：http://www.boardgamegeek.com/boardgame/166384/spyfall",
+        "support": "适用于所有浏览器，但我想你不会拿一台电脑传来传去吧？",
+        "imageUrl": "res/img/spyfall.jpg",
+        "githubUrl": "http://github.com/eastfire/spyfall",
+        "appUrl" : "http://eastfire.github.io/spyfall",
+        "year": 2014
+    },
+    {
+        "id": "pole-adventure",
+        "name": "极地大冒险",
+        "description": "以推理和区域移动为主要机制的桌游。可单机多人对战或与AI对战。",
+        "support":"仅适用于pc浏览器或分辨率大于1280×720的android pad。ipad浏览器中显示不全。抱歉游戏写的比较早，还没有做响应式设计。",
+        "imageUrl": "res/img/pole-adventure-1.jpg",
+        "githubUrl": "http://github.com/eastfire/PoleAdventure",
+        "appUrl" : "http://eastfire.github.io/PoleAdventure",
+        "year": 2013
+    },
+
+    {
+        "id": "crazy-math",
+        "name": "CrazyMath",
+        "description": "类似几何战争的射击游戏，只不过控制的是一整个方阵。鼠标左键为集中射击，右键为平行射击。滚轮可以调节阵型宽度。SDL实现",
+        "support": "仅适用于windows，下载压缩包解压即可",
+        "imageUrl": "res/img/crazy-math-1.jpg",
+        "appUrl": "./legacy/CrazyMath.zip",
+        "year": 2007
+    },
+    {
+        "id": "ninja",
+        "name": "ninja",
+        "description": "忍者荡绳索的游戏，左键放绳索，再点左键收绳索。SDL实现",
+        "support":"仅适用于windows，下载压缩包解压即可",
+        "imageUrl": "res/img/ninja-1.jpg",
+        "appUrl" : "./legacy/ninja.zip",
+        "year": 2006
+    },
+    {
+        "id": "crimson",
+        "name": "crimson",
+        "description": "受crimson land启发制作的射击游戏。左键射击，右键或asdw移动，空格进入升级界面，按1～9切换武器。Perl实现",
+        "support":"仅适用于windows，下载压缩包解压即可",
+        "imageUrl": "res/img/crimson-1.jpg",
+        "appUrl" : "./legacy/crimson.zip",
+        "year": 2006
     }
 ]

@@ -13,15 +13,15 @@ var workListApp = angular.module('workListApp', [
 workListApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/phones', {
+      when('/apps', {
         templateUrl: 'res/partials/app-list.html',
         controller: 'PhoneListCtrl'
       }).
-      when('/phones/:phoneId', {
+      when('/apps/:appId', {
         templateUrl: 'res/partials/phone-detail.html',
         controller: 'PhoneDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/phones'
+        redirectTo: '/apps'
       });
   }]);
