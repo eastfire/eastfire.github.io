@@ -6,7 +6,7 @@
         "support": "适用于所有浏览器",
         "imageUrl": "res/img/galaxy15m-3.jpg",
         "githubUrl": "http://github.com/eastfire/galaxy15m",
-        "appUrl" : "http://eastfire.github.io/galaxy15m",
+        "appUrl" : "http://eastfire.github.io/galaxy15m/publish/html5",
         "backupUrl" : "https://galaxy15m.firebaseapp.com/",
         "year": 2015
     },
@@ -17,7 +17,7 @@
         "support": "适用于所有浏览器",
         "imageUrl": "res/img/dungeon-deck-1.jpg",
         "githubUrl": "http://github.com/eastfire/dungeon-deck",
-        "appUrl" : "http://eastfire.github.io/dungeon-deck",
+        "appUrl" : "http://eastfire.github.io/dungeon-deck/publish/html5",
         "backupUrl" : "https://dungeon-deck.firebaseapp.com/",
         "year": 2015
     },
