@@ -1,5 +1,16 @@
 [
     {
+        "id": "poker-fighter",
+        "name": "Poker Fighter",
+        "description": "玩家用手指拖动纸牌组成牌型来对战。再现香港电影中赌神对决场景，用一台机器双人对战，也支持单人对战AI。cocos2d-js实现",
+        "support": "适用于所有浏览器",
+        "imageUrl": "res/img/poker-fighter.jpg",
+        "githubUrl": "http://github.com/eastfire/poker_fighter",
+        "appUrl" : "http://eastfire.github.io/poker_fighter/publish/html5",
+        "backupUrl" : "http://eastfire.github.io/poker_fighter",
+        "year": 2015
+    },
+    {
         "id": "galaxy15m",
         "name": "银河一刻",
         "description": "模拟人类殖民银河系的小游戏，每局最多需要15分钟。给我1000秒，我给你整个银河。cocos2d-js实现",
@@ -34,8 +45,8 @@
     {
         "id": "spyfall",
         "name": "spyfall",
-        "description": "社交推理桌游，通过传递一部手机来传递隐藏信息。规则见BGG：http://www.boardgamegeek.com/boardgame/166384/spyfall",
-        "support": "适用于所有浏览器，但我想你不会拿一台电脑传来传去吧？",
+        "description": "社交推理桌游。语言游戏。玩家用各自手机同步信息。也支持传递一部手机来传递隐藏信息。 规则见BGG：http://www.boardgamegeek.com/boardgame/166384/spyfall",
+        "support": "适用于所有浏览器",
         "imageUrl": "res/img/spyfall.jpg",
         "githubUrl": "http://github.com/eastfire/spyfall",
         "appUrl" : "http://eastfire.github.io/spyfall",
