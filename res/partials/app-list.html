@@ -1,25 +1,22 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2">
-      <!--Sidebar content-->
-    </div>
-    <div class="col-md-10">
+<div class="container-fluid ">
       <!--Body content-->
-
-      <ul class="apps">
-        <li ng-repeat="app in apps"
-            class="thumbnail phone-listing">
-          <a target="_blank" href="{{app.appUrl}}" class="thumb" style="background-image: url({{app.imageUrl}})"></a>
-          <a target="_blank" href="{{app.appUrl}}">{{app.name}}</a>
-          <p>{{app.description}}</p>
-          <p>{{app.support}}</p>
-          <p>写于{{app.year}}年</p>
-          <a target="_blank" href="{{app.appUrl}}">应用地址</a><br/>
-          <a target="_blank" href="{{app.backupUrl}}" style="display: {{app.backupUrl!=null?'block':'none'}}">备用地址（如果github被墙或速度很慢的话）</a><br/>
-          <a target="_blank" href="{{app.githubUrl}}" style="display: {{app.githubUrl!=null?'block':'none'}}">github项目地址</a><br/>
-        </li>
-      </ul>
-
-    </div>
-  </div>
+      <div class="apps">
+        <div ng-repeat="app in apps"
+            class=" game-listing">
+            <div class="row">
+                <div class="col-md-2">
+                    <a target="_blank" href="{{app.appUrl}}" class=" thumb" style="background-image: url({{app.imageUrl}})"></a>
+                </div>
+                <div class="col-md-10">
+                    <a target="_blank" href="{{app.appUrl}}">{{app.name}}</a>
+                    <p>{{app.description}}</p>
+                    <p>{{app.support}}</p>
+                    <p>写于{{app.year}}年</p>
+                    <a target="_blank" href="{{app.appUrl}}">应用地址</a><br/>
+                    <a target="_blank" href="{{app.backupUrl}}" style="display: {{app.backupUrl!=null?'block':'none'}}">备用地址（如果github被墙或速度很慢的话）</a><br/>
+                    <a target="_blank" href="{{app.githubUrl}}" style="display: {{app.githubUrl!=null?'block':'none'}}">github项目地址</a><br/>
+                </div>
+            </div>
+        </div>
+      </div>
 </div>
