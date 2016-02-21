@@ -1,5 +1,16 @@
 [
     {
+        "id": "poker-fighter",
+        "name": "Poker Fighter",
+        "description": "玩家用手指拖动纸牌组成牌型来对战。再现香港电影中赌神对决场景，用一台机器双人对战，也支持单人对战AI。cocos2d-js实现。已在apple app store 上架。",
+        "support": "适用于所有浏览器",
+        "imageUrl": "res/img/poker-fighter.jpg",
+        "githubUrl": "http://github.com/eastfire/poker_fighter",
+        "appUrl" : "http://eastfire.github.io/poker_fighter/publish/html5",
+        "backupUrl" : "http://eastfire.github.io/poker_fighter",
+        "iosAppUrl": "http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1079424965&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8",
+        "year": "2015，ios版上架于2016-2"
+    },{
         "id": "funframe",
         "name": "画话接力",
         "description": "这是一款画图猜画游戏。但是没有绘画技巧的人也能体会到乐趣（可能更多）。一个玩家根据题目画图传给另一个玩家，该玩家根据图画猜文字，再传给下一个玩家。依此类推，经过若干次接力，就可以看到一段非常搞笑的图文流传过程。后端LeanCload",
@@ -8,16 +19,6 @@
         "githubUrl": "http://github.com/eastfire/funframe",
         "appUrl" : "http://eastfire.github.io/funframe",
         "backupUrl" : null,
-        "year": 2015
-    },{
-        "id": "poker-fighter",
-        "name": "Poker Fighter",
-        "description": "玩家用手指拖动纸牌组成牌型来对战。再现香港电影中赌神对决场景，用一台机器双人对战，也支持单人对战AI。cocos2d-js实现",
-        "support": "适用于所有浏览器",
-        "imageUrl": "res/img/poker-fighter.jpg",
-        "githubUrl": "http://github.com/eastfire/poker_fighter",
-        "appUrl" : "http://eastfire.github.io/poker_fighter/publish/html5",
-        "backupUrl" : "http://eastfire.github.io/poker_fighter",
         "year": 2015
     },
     {
