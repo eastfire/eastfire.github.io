@@ -7,23 +7,194 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/animations.css">
-
-  <script src="js/libs/jquery.min.js"></script>
-  <script src="js/libs/angular.min.js"></script>
-  <script src="js/libs/angular-animate.min.js"></script>
-  <script src="js/libs/angular-route.min.js"></script>
-  <script src="js/libs/angular-resource.min.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/animations.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/services.js"></script>
 </head>
 <body>
 
-  <div class="view-container">
-    <div ng-view class="view-frame"></div>
-  </div>
+<div class="view-container">
+    <!-- ngView:  --><div class="view-frame ng-scope" ng-view="" style=""><div class="container-fluid  ng-scope">
+    <!--Body content-->
+    <div class="apps">
+        <!-- ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/rogue2048.jpg)" class=" thumb" href="http://eastfire.github.io/dessert_n_dragon/publish/html5" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/dessert_n_dragon/publish/html5" target="_blank" class="ng-binding">Rogue2048</a>
+                <p class="ng-binding">Dungeon2048的续作。玩家用手指滑动屏幕或键盘的上下左右操作。增加技能的deck building系统，房间和地形的变化。特性系统。cocos2d-js实现</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2016年5月</p>
+                <a href="http://eastfire.github.io/dessert_n_dragon/publish/html5" target="_blank">web应用地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/dessert_n_dragon" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/poker-fighter.jpg)" class=" thumb" href="http://eastfire.github.io/poker_fighter/publish/html5" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/poker_fighter/publish/html5" target="_blank" class="ng-binding">Poker Fighter</a>
+                <p class="ng-binding">玩家用手指拖动纸牌组成牌型来对战。再现香港电影中赌神对决场景，用一台机器双人对战，也支持单人对战AI。cocos2d-js实现。已在apple app store 上架。</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2015年，ios版上架于2016-2月</p>
+                <a href="http://eastfire.github.io/poker_fighter/publish/html5" target="_blank">web应用地址</a><br>
+                <a style="display: block" href="http://eastfire.github.io/poker_fighter" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: block" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1079424965&amp;pageNumber=0&amp;sortOrdering=2&amp;type=Purple+Software&amp;mt=8" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/poker_fighter" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/funframe.png)" class=" thumb" href="http://eastfire.github.io/funframe" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/funframe" target="_blank" class="ng-binding">画话接力</a>
+                <p class="ng-binding">这是一款画图猜画游戏。但是没有绘画技巧的人也能体会到乐趣（可能更多）。一个玩家根据题目画图传给另一个玩家，该玩家根据图画猜文字，再传给下一个玩家。依此类推，经过若干次接力，就可以看到一段非常搞笑的图文流传过程。后端LeanCload</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2015年</p>
+                <a href="http://eastfire.github.io/funframe" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/funframe" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/galaxy15m-3.jpg)" class=" thumb" href="http://eastfire.github.io/galaxy15m/publish/html5" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/galaxy15m/publish/html5" target="_blank" class="ng-binding">银河一刻</a>
+                <p class="ng-binding">模拟人类殖民银河系的小游戏，每局最多需要15分钟。给我1000秒，我给你整个银河。cocos2d-js实现</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2015年</p>
+                <a href="http://eastfire.github.io/galaxy15m/publish/html5" target="_blank">web应用地址</a><br>
+                <a style="display: block" href="https://galaxy15m.firebaseapp.com/" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/galaxy15m" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/dungeon-deck-1.jpg)" class=" thumb" href="http://eastfire.github.io/dungeon-deck/publish/html5" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/dungeon-deck/publish/html5" target="_blank" class="ng-binding">DungeonDeck</a>
+                <p class="ng-binding">塔防与桌游DBG机制(牌库构筑)结合的游戏。cocos2d-js实现</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2015年</p>
+                <a href="http://eastfire.github.io/dungeon-deck/publish/html5" target="_blank">web应用地址</a><br>
+                <a style="display: block" href="https://dungeon-deck.firebaseapp.com/" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/dungeon-deck" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/dungeon2048-1.jpg)" class=" thumb" href="http://eastfire.github.io/dungeon2048" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/dungeon2048" target="_blank" class="ng-binding">Dungeon2048</a>
+                <p class="ng-binding">2048与DND背景相结合的rogue like游戏。</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2014年</p>
+                <a href="http://eastfire.github.io/dungeon2048" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/dungeon2048" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/spyfall.jpg)" class=" thumb" href="http://eastfire.github.io/spyfall" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/spyfall" target="_blank" class="ng-binding">spyfall</a>
+                <p class="ng-binding">社交推理桌游。语言游戏。玩家用各自手机同步信息。也支持传递一部手机来传递隐藏信息。 规则见BGG：http://www.boardgamegeek.com/boardgame/166384/spyfall</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2014年</p>
+                <a href="http://eastfire.github.io/spyfall" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/spyfall" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/pole-adventure-1.jpg)" class=" thumb" href="http://eastfire.github.io/PoleAdventure" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/PoleAdventure" target="_blank" class="ng-binding">极地大冒险</a>
+                <p class="ng-binding">以推理和区域移动为主要机制的桌游。可单机多人对战或与AI对战。</p>
+                <p class="ng-binding">仅适用于pc浏览器或分辨率大于1280×720的android pad。ipad浏览器中显示不全。抱歉游戏写的比较早，还没有做响应式设计。</p>
+                <p class="ng-binding">写于2013年</p>
+                <a href="http://eastfire.github.io/PoleAdventure" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/PoleAdventure" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/crazy-math-1.jpg)" class=" thumb" href="./legacy/CrazyMath.zip" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="./legacy/CrazyMath.zip" target="_blank" class="ng-binding">CrazyMath</a>
+                <p class="ng-binding">类似几何战争的射击游戏，只不过控制的是一整个方阵。鼠标左键为集中射击，右键为平行射击。滚轮可以调节阵型宽度。SDL实现</p>
+                <p class="ng-binding">仅适用于windows，下载压缩包解压即可</p>
+                <p class="ng-binding">写于2007年</p>
+                <a href="./legacy/CrazyMath.zip" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: none" href="" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/ninja-1.jpg)" class=" thumb" href="./legacy/ninja.zip" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="./legacy/ninja.zip" target="_blank" class="ng-binding">ninja</a>
+                <p class="ng-binding">忍者荡绳索的游戏，左键放绳索，再点左键收绳索。SDL实现。注：超难</p>
+                <p class="ng-binding">仅适用于windows，下载压缩包解压即可</p>
+                <p class="ng-binding">写于2006年</p>
+                <a href="./legacy/ninja.zip" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: none" href="" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/crimson-1.jpg)" class=" thumb" href="./legacy/crimson.zip" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="./legacy/crimson.zip" target="_blank" class="ng-binding">crimson</a>
+                <p class="ng-binding">受crimson land启发制作的射击游戏。左键射击，右键或asdw移动，空格进入升级界面，按1～9切换武器。Perl实现</p>
+                <p class="ng-binding">仅适用于windows，下载压缩包解压即可</p>
+                <p class="ng-binding">写于2006年</p>
+                <a href="./legacy/crimson.zip" target="_blank">web应用地址</a><br>
+                <a style="display: none" href="" target="_blank">备用地址（如果github被墙或速度很慢的话）</a><br>
+                <a style="display: none" href="" target="_blank">apple应用商店地址</a><br>
+                <a style="display: none" href="" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+    </div><!-- end ngRepeat: app in apps -->
+    </div>
+</div>
+</div>
+</div>
+
+
 
 </body>
 </html>
