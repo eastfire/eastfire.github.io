@@ -1,12 +1,19 @@
 <!doctype html>
-<html lang="en" ng-app="workListApp">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>Eastfire Studio</title>
+  <title>Eastfire个人作品展示</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/animations.css">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-7719082729503608",
+      enable_page_level_ads: true
+    });
+  </script>
 </head>
 <body>
 
@@ -14,7 +21,42 @@
     <!-- ngView:  --><div class="view-frame ng-scope" ng-view="" style=""><div class="container-fluid  ng-scope">
     <!--Body content-->
     <div class="apps">
-        <!-- ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/wandering_earth.jpg)" class=" thumb" href="http://eastfire.github.io/wandering_earth/build/web-mobile/" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="http://eastfire.github.io/wandering_earth/build/web-mobile/" target="_blank" class="ng-binding">地球流浪去</a>
+                <p class="ng-binding">蹭流浪地球热度写的小游戏。支持屏幕点击和晃动手机的操作方式。也致敬所有的科幻作者，是你们让文字插上了想象力的翅膀。</p>
+                <p class="ng-binding">其实也写了微信小游戏版，但是微信小游戏审核太麻烦了。</p>
+                <p class="ng-binding">适用于所有浏览器</p>
+                <p class="ng-binding">写于2019年2月</p>
+                <a href="http://eastfire.github.io/wandering_earth/build/web-mobile/" target="_blank">web应用地址</a><br>
+                <a style="display: block" href="http://github.com/eastfire/wandering_earth" target="_blank">github项目地址</a><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/bg2.jpg)" class=" thumb" href="" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="" target="_blank" class="ng-binding">雾海舰队 桌游</a>
+                <p class="ng-binding">主要机制：deduction, bluffing</p>
+                <p class="ng-binding">设计于2016年底，预计2019年由yoka出版</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="game-image col-md-2">
+                <a style="background-image: url(res/img/bg1.jpg)" class=" thumb" href="https://s.taobao.com/search?q=梦想启航+桌游" target="_blank"></a>
+            </div>
+            <div class="col-md-10">
+                <a href="https://s.taobao.com/search?q=梦想启航+桌游" target="_blank" class="ng-binding">梦想启航 桌游</a>
+                <p class="ng-binding">英文名Voyager's venture</p>
+                <p class="ng-binding">主要机制：card drafting，hand management，set collection</p>
+                <p class="ng-binding">设计于2010年底，由MYBG出版于2017年10月12日</p>
+                <a style="display: block" href="https://www.boardgamegeek.com/boardgame/232360/voyagers-venture" target="_blank">BGG地址</a><br>
+            </div>
+        </div>
         <div class="row">
             <div class="game-image col-md-2">
                 <a style="background-image: url(res/img/rogue2048.jpg)" class=" thumb" href="http://eastfire.github.io/dessert_n_dragon/publish/html5" target="_blank"></a>
@@ -28,7 +70,6 @@
                 <a style="display: block" href="http://github.com/eastfire/dessert_n_dragon" target="_blank">github项目地址</a><br>
             </div>
         </div>
-    </div><!-- end ngRepeat: app in apps --><div class="game-listing ng-scope" ng-repeat="app in apps">
         <div class="row">
             <div class="game-image col-md-2">
                 <a style="background-image: url(res/img/poker-fighter.jpg)" class=" thumb" href="http://eastfire.github.io/poker_fighter/publish/html5" target="_blank"></a>
